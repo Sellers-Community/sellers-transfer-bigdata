@@ -13,7 +13,7 @@
 
     <groupId>com.br.sellers.community.transferbigdata</groupId>
     <artifactId>sellers-transfer-bigdata</artifactId>
-    <version>1.0.0-1</version>
+    <version>1.0.0-2</version>
     <name>sellers-transfer-bigdata</name>
 
     <description>Biblioteca para transferencia de dados pelo Redis.</description>
@@ -94,11 +94,11 @@
         </dependencies>
     </dependencyManagement>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>
