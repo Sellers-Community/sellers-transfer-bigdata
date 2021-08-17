@@ -39,7 +39,3 @@ Essa é uma chave personalizada que cada serviço pode gerar.
  record.headers().add(new RecordHeader(TransferBigdataHeader.KEY_TRANSFER_BIGDATA_VALUE, keyTransferBigdata.getBytes()));
 ```
 
-```
-@SellersCacheable(name = "customCpf", expires = CacheExpires.THIRTY_SECONDS)
-```
-
