@@ -24,6 +24,11 @@ Cenários:
     <artifactId>sellers-transfer-bigdata</artifactId>
     <version>1.0.0</version>
 </dependency>
+
+<repository>
+    <id>nexus</id>
+    <url>http://nexus.evoluumlab.com.br/repository/maven-public</url>
+</repository>
 ```
 
 2. Habilitando 
