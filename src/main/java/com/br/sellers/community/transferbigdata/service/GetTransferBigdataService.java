@@ -12,7 +12,9 @@ public class GetTransferBigdataService extends GenericTransferBigdata {
 
     public String execute(String key) {
         String newKey = getKey(key);
-        return (String) template.opsForValue().get(newKey);
+        String value = (String) template.opsForValue().get(newKey);
+        template.delete(newKey);
+        return value;
     }
 
 }
