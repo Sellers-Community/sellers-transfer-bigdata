@@ -19,16 +19,11 @@ Cenários:
 1. Adicionar dependência
 
 ```
-<dependency>
-    <groupId>com.br.sellers.community.transferbigdata</groupId>
-    <artifactId>sellers-transfer-bigdata</artifactId>
-    <version>1.0.0</version>
-</dependency>
-
-<repository>
-    <id>nexus</id>
-    <url>http://nexus.evoluumlab.com.br/repository/maven-public</url>
-</repository>
+     <dependency>
+            <groupId>com.github.Sellers-Community</groupId>
+            <artifactId>sellers-transfer-bigdata</artifactId>
+            <version>v1.0.0-3</version>
+        </dependency>
 ```
 
 2. Habilitando 
