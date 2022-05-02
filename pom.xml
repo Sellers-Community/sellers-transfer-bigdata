@@ -13,7 +13,7 @@
 
     <groupId>com.br.sellers.community.transferbigdata</groupId>
     <artifactId>sellers-transfer-bigdata</artifactId>
-    <version>1.0.0-3</version>
+    <version>1.0.0-4</version>
     <name>sellers-transfer-bigdata</name>
 
     <description>Biblioteca para transferencia de dados pelo Redis.</description>
